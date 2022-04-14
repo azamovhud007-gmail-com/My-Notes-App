@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_add_note"
+            android:title="Eslatma qo`shish"
+            android:icon="@drawable/ic_add_outline"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="100"/>
+
+        <item
+            android:id="@+id/menu_add_image"
+            android:title="Rasm qo`shish"
+            android:icon="@drawable/ic_image"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="200"/>
+
+        <item
+            android:id="@+id/menu_add_voice"
+            android:title="Ovoz qo`shish"
+            android:icon="@drawable/ic_voice"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="300"/>
+
+        <item
+            android:id="@+id/menu_add_url"
+            android:title="Url qo`shish"
+            android:icon="@drawable/ic_web_link"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="400"/>
+
+        <item
+            android:id="@+id/menu_app_theme"
+            android:icon="@drawable/ic_menu_app_theme"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="500"
+            android:title="Qorong`u rejim" />
+
+        <item
+            android:id="@+id/menu_app_info"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:iconTint="@color/colorMiscellaneousBackground"
+            android:orderInCategory="600"
+            android:title="Fikr bildiring" />
+
+        <item
+            android:id="@+id/menu_rate_noted"
+            android:icon="@drawable/ic_menu_rate"
+            android:iconTint="@color/colorIcons"
+            android:orderInCategory="700"
+            android:title="Baxolash" />
+
+        <item
+            android:id="@+id/menu_share_noted"
+            android:icon="@drawable/ic_menu_share"
+            android:iconTint="@color/colorIcons"
+            android:orderInCategory="800"
+            android:title="Ulashish" />
+
+        <item
+            android:id="@+id/menu_more_apps"
+            android:icon="@drawable/ic_menu_more"
+            android:iconTint="@color/colorIcons"
+            android:orderInCategory="900"
+            android:title="Boshqalar" />
+
+        <item
+            android:id="@+id/menu_privacy_policy"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:iconTint="@color/colorIcons"
+            android:orderInCategory="1000"
+            android:title="Dasturchi" />
+
+    </group>
+
+</menu>

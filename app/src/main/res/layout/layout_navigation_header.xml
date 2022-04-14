@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorQuickActionsBackground">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/nav_menu_header_illustration"
+        android:layout_width="199dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/developer" />
+
+    <TextView
+        android:id="@+id/nav_menu_header_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/app_name"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="@color/colorIcons"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"
+        app:layout_constraintTop_toBottomOf="@+id/nav_menu_header_illustration"
+        app:layout_constraintStart_toStartOf="@+id/nav_menu_header_illustration"/>
+
+    <TextView
+        android:id="@+id/nav_menu_header_app_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/courgette"
+        android:includeFontPadding="false"
+        android:text="powered by HaDeveloper"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorIcons"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nav_menu_header_app_name"
+        app:layout_constraintTop_toBottomOf="@+id/nav_menu_header_app_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
